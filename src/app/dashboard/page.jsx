@@ -23,7 +23,7 @@ export default function Page() {
   ];
 
   return (
-    <div className="flex justify-center px-4 sm:px-6">
+    <div className="flex justify-center px-4 sm:px-6 ml-2 lg:ml-32">
       <div className=" w-full max-w-6xl space-y-6">
         {/* Dashboard Title */}
         <h1 className="text-2xl font-bold text-center">Dashboard Home</h1>
