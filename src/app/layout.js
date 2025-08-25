@@ -10,16 +10,15 @@ const roboto = Roboto({
 export const metadata = {
   title: {
     default: "Home",
-    template: "%s | UrbanKicks",
+    template: "%s | BagCollection",
   },
-  description: "UrbanKicks is a shoe product base app.",
+  description: "BagCollection is a stylish and premium bag showcase app.",
   icons: {
-    icon: "/UrbanKicks-logo-transparent.png", 
-    shortcut: "/UrbanKicks-logo-transparent.png",
-    apple: "/UrbanKicks-logo-transparent.png",
+    icon: "/public/bag4.jpeg", 
+    shortcut: "/public/bag4.jpeg",
+    apple: "/public/bag4.jpeg",
   },
 };
-
 
 
 export default function RootLayout({ children }) {
@@ -38,3 +37,33 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// export const metadata = {
+//   title: {
+//     default: "Home",
+//     template: "%s | UrbanKicks",
+//   },
+//   description: "UrbanKicks is a shoe product base app.",
+//   icons: {
+//     icon: "/UrbanKicks-logo-transparent.png", 
+//     shortcut: "/UrbanKicks-logo-transparent.png",
+//     apple: "/UrbanKicks-logo-transparent.png",
+//   },
+// };

@@ -3,7 +3,7 @@
 A full-stack **Bagify Management System** built with **Next.js 15**, **NextAuth.js** for authentication, and a database for persistent storage.  
 The platform provides a simple interface to manage shoes, track details, and access a protected dashboard with analytics.
 
-🔗 **Live Demo:** [bagify](https://urbankicks-puce.vercel.app/)
+🔗 **Live Demo:** [bagify](https://product-client.vercel.app)
 
 ---
 
@@ -26,12 +26,6 @@ The platform provides a simple interface to manage shoes, track details, and acc
 - **Charts:** Recharts  
 - **UI Enhancements:** React Icons, React Hot Toast, Swiper.js  
 - **HTTP Requests:** Axios  
-
----
-
-## ⚡ Installation & Setup
-
-### 1️⃣ Clone the Repository
 
 
 ## Secrets In Env File:
