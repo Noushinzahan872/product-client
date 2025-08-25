@@ -20,7 +20,7 @@ export default function DashboardLayout({ children }) {
     <div className="flex min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors">
       {/* Sidebar */}
       <aside
-        className={`fixed top-0 left-0  h-screen w-64 bg-white dark:bg-gray-800 shadow-md transform transition-transform duration-300 z-50 
+        className={`fixed top-0 left-0  h-screen w-48 bg-white dark:bg-gray-800 shadow-md transform transition-transform duration-300 z-50 
         ${isOpen ? "translate-x-0" : "-translate-x-full"} lg:translate-x-0`}
       >
         {/* Logo */}

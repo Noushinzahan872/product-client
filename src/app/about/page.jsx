@@ -3,9 +3,12 @@
 "use client";
 import React from "react";
 import { FaSuitcase, FaGlobeAsia, FaLeaf } from "react-icons/fa";
+import MainLayout from "../components/MainLayout";
 
 export default function AboutSection() {
   return (
+   <MainLayout>
+     
     <section className="max-w-7xl mx-auto px-6 py-16">
       {/* Heading */}
       <div className="text-center mb-12">
@@ -58,6 +61,7 @@ export default function AboutSection() {
         </div>
       </div>
     </section>
+   </MainLayout>
   );
 }
 
