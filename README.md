@@ -27,6 +27,14 @@ The platform provides a simple interface to manage shoes, track details, and acc
 - **UI Enhancements:** React Icons, React Hot Toast, Swiper.js  
 - **HTTP Requests:** Axios  
 
+---
+
+## ⚡ Installation & Setup
+npm install
+### 1️⃣ Clone the Repository
+
+git clone https://github.com/Noushinzahan872/product-client
+cd product-client
 
 ## Secrets In Env File:
 NEXTAUTH_SECRET=your_secret_key
