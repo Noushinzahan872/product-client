@@ -55,7 +55,7 @@ export default function SignUp() {
     console.log("User Data:", userData);
 
     try {
-      const res = await axios.post("http://localhost:5000/users", userData);
+      const res = await axios.post("https://product-server-khaki.vercel.app/users", userData);
       if (res.status === 201) {
         toast.success("Account created successfully 🎉");
         

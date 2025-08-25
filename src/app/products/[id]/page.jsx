@@ -5,10 +5,10 @@ import { useParams } from "next/navigation";
 import axios from "axios";
 import toast from "react-hot-toast";
 import MainLayout from "@/app/components/MainLayout";
- // adjust the path if needed
+ 
 
 export default function ProductDetail() {
-  const { id } = useParams(); // get the product id from URL
+  const { id } = useParams(); 
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
 
@@ -16,8 +16,8 @@ export default function ProductDetail() {
     const fetchProduct = async () => {
       try {
         setLoading(true);
-        const res = await axios.get(`http://localhost:5000/display/shoes/${id}`);
-        setProduct(res.data.data); // product is inside res.data.data
+        const res = await axios.get(`https://product-server-khaki.vercel.app/display/bags/${id}`);
+        setProduct(res.data.data);
       } catch (err) {
         console.error(err);
         toast.error("Failed to fetch product details");

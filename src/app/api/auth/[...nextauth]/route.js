@@ -14,7 +14,7 @@ export const authOptions = {
                 console.log(credentials)
                 try {
                     // Fetch user from backend by email
-                    const res = await fetch(`http://localhost:5000/users/${email}`);
+                    const res = await fetch(`https://product-server-khaki.vercel.app/users/${email}`);
                     const data = await res.json();
 
                     if (!res.ok || !data.success || data.data.length === 0) {

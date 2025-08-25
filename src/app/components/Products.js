@@ -13,7 +13,7 @@ export default function Products() {
   const fetchProducts = async () => {
     try {
       setLoading(true);
-      const res = await axios.get("http://localhost:5000/display/shoes");
+      const res = await axios.get("https://product-server-khaki.vercel.app/display/bags");
       setProducts(res.data.data.slice(0, 6)); // only first 6
     } catch (err) {
       console.error(err);
